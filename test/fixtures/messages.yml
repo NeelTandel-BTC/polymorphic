@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  sender: one
+  sender_type: Sender
+
+two:
+  content: MyString
+  sender: two
+  sender_type: Sender
