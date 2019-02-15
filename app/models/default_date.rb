@@ -1,5 +1,4 @@
-nos = (1..10).to_a
+nos = (1..4000).to_a
 nos.each do |no|
-  User.find_or_create_by(name: "User#{no}")
-  Customer.find_or_create_by(name: "Customer#{no}")
+  Student.find_or_create_by(name: "Student#{no}", address: "Student#{no}",phone_no: "Student#{no}", email:"Student#{no}")
 end
